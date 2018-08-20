@@ -32,18 +32,6 @@ to run tests
 
 sbt test
 
-## Directory Layout:
-
-* /stocktrends/src 
-  * test/scala/schematest.scala
-  * main/scala/schematest.scala 
-* /stocktrends/data
-  * week20180810 
-  * testdata
-* /stocktrends/build.sbt 
-* /stocktrends/spark-warehouse 
-* /stocktrends/project
-* /stocktrends/target 
 
 
 
