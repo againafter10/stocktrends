@@ -34,10 +34,10 @@ sbt test
 
 ## Directory Layout:
 
-/stocktrends/src 
-............/src/test/scala/schematest.scala
-............/src/main/scala/schematest.scala 
-/stocktrends/data
+* /stocktrends/src 
+  * ............/src/test/scala/schematest.scala
+  * ............/src/main/scala/schematest.scala 
+* /stocktrends/data
 ............/data/week20180810 
 ............/data/testdata
 /stocktrends/build.sbt 
