@@ -28,8 +28,6 @@ sbt compile/assembly/run
 
 ## Test:
 
-to run tests
-
 sbt test
 
 
