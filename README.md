@@ -44,18 +44,6 @@ sbt test
 * /stocktrends/spark-warehouse 
 * /stocktrends/project
 * /stocktrends/target 
-* /stocktrends/results
-  * zeppelin
-  * Test\_Results
-  * IDE
 
-## Notes: 
-* /stocktrends/results/zeppelin 
-  * contains the screenshot and the "sample_notebook.json" file that was used to develop/test this piece of code
-* /stocktrends/Tesults/Test\_Results
-  * contains the screenshot of "sbt test" 
-* /stocktrends/Tesults/IDE
-   * contians the screenshot and text files of development and compilation of the code  on 2 IDE's IntelliJ and VS code
 
-## Enhancements: 
-Can be extended to perform analysis of live streaming data
+
