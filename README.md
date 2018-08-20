@@ -22,9 +22,9 @@ columns corresponding to "Ticker, Date, Open, High, Low, Close, Volume"
 The data has been “cleaned” to remove non-trading days, illiquid stocks
 and non 3 character codes (Options, Warrants etc))
 
-##  Compiling:
+##  Compiling/Packaging/execution:
 
-sbt assembly
+sbt compile/assembly/run
 
 ## Test:
 
