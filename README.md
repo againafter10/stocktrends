@@ -38,8 +38,8 @@ sbt test
   * test/scala/schematest.scala
   * main/scala/schematest.scala 
 * /stocktrends/data
- * week20180810 
- * testdata
+  * week20180810 
+  * testdata
 * /stocktrends/build.sbt 
 * /stocktrends/spark-warehouse 
 * /stocktrends/project
@@ -51,11 +51,11 @@ sbt test
 
 ## Notes: 
 * /stocktrends/results/zeppelin 
- * contains the screenshot and the "sample_notebook.json" file that was used to develop/test this piece of code
+  * contains the screenshot and the "sample_notebook.json" file that was used to develop/test this piece of code
 * /stocktrends/Tesults/Test\_Results
- * contains the screenshot of "sbt test" 
+  * contains the screenshot of "sbt test" 
 * /stocktrends/Tesults/IDE
- * contians the screenshot and text files of development and compilation of the code parallely on 2 IDE's IntelliJ and VS code
+   * contians the screenshot and text files of development and compilation of the code parallely on 2 IDE's IntelliJ and VS code
 
 ## Enhancements: 
 Can be extended to perform analysis of live streaming data
