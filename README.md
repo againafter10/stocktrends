@@ -1,5 +1,5 @@
 # stocktrends
-##Purpose: 
+## Purpose: 
 You are a stock market trader working with ABC investment
 group. As a stock market trader, you would like to show your clients the
 current trends in the market and help them make the right investments.
@@ -34,12 +34,20 @@ sbt test
 
 ## Directory Layout:
 
-/stocktrends/src ............/src/test/scala/schematest.scala
-............/src/main/scala/schematest.scala /stocktrends/data
-............/data/week20180810 ............/data/testdata
-/stocktrends/build.sbt /stocktrends/spark-warehouse /stocktrends/project
-/stocktrends/target /stocktrends/results ............/results/zeppelin
-............/results/Test\_Results ............/results/IDE
+/stocktrends/src 
+............/src/test/scala/schematest.scala
+............/src/main/scala/schematest.scala 
+/stocktrends/data
+............/data/week20180810 
+............/data/testdata
+/stocktrends/build.sbt 
+/stocktrends/spark-warehouse 
+/stocktrends/project
+/stocktrends/target 
+/stocktrends/results
+............/results/zeppelin
+............/results/Test\_Results 
+............/results/IDE
 
 ## Notes: 
 /stocktrends/results/zeppelin : contains the screenshot and the
@@ -49,4 +57,5 @@ test" /stocktrends/Tesults/IDE : contians the screenshot and text files
 of development and compilation of the code parallely on 2 IDE's IntelliJ
 and VS code
 
-## Enhancements: Can be extended to perform analysis of live streaming data
+## Enhancements: 
+Can be extended to perform analysis of live streaming data
