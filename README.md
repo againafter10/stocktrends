@@ -45,9 +45,9 @@ sbt test
 * /stocktrends/project
 * /stocktrends/target 
 * /stocktrends/results
- * zeppelin
- * Test\_Results 
- * IDE
+  * zeppelin
+  * Test\_Results
+  * IDE
 
 ## Notes: 
 * /stocktrends/results/zeppelin 
