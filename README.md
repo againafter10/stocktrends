@@ -35,27 +35,27 @@ sbt test
 ## Directory Layout:
 
 * /stocktrends/src 
-  * ............/src/test/scala/schematest.scala
-  * ............/src/main/scala/schematest.scala 
+  * test/scala/schematest.scala
+  * main/scala/schematest.scala 
 * /stocktrends/data
-............/data/week20180810 
-............/data/testdata
-/stocktrends/build.sbt 
-/stocktrends/spark-warehouse 
-/stocktrends/project
-/stocktrends/target 
-/stocktrends/results
-............/results/zeppelin
-............/results/Test\_Results 
-............/results/IDE
+ * week20180810 
+ * testdata
+* /stocktrends/build.sbt 
+* /stocktrends/spark-warehouse 
+* /stocktrends/project
+* /stocktrends/target 
+* /stocktrends/results
+ * zeppelin
+ * Test\_Results 
+ * IDE
 
 ## Notes: 
-/stocktrends/results/zeppelin : contains the screenshot and the
-.json file taht was used to develop/test this piece of code
-/stocktrends/Tesults/Test\_Results: contains the screenshot of "sbt
-test" /stocktrends/Tesults/IDE : contians the screenshot and text files
-of development and compilation of the code parallely on 2 IDE's IntelliJ
-and VS code
+* /stocktrends/results/zeppelin 
+ * contains the screenshot and the "sample_notebook.json" file that was used to develop/test this piece of code
+* /stocktrends/Tesults/Test\_Results
+ * contains the screenshot of "sbt test" 
+* /stocktrends/Tesults/IDE
+ * contians the screenshot and text files of development and compilation of the code parallely on 2 IDE's IntelliJ and VS code
 
 ## Enhancements: 
 Can be extended to perform analysis of live streaming data
