@@ -144,7 +144,7 @@ def stocksReport(stocksDF: DataFrame ): DataFrame = {
 def main(args: Array[String]) {
 
     Logger.getLogger("org").setLevel(Level.ERROR)
-    var stocks = readCsv("../stockanalysis/src/data/week20180810/*")
+    var stocks = readCsv("......./data/week20180810/*")
 
     // type the data (only 2 for POC,adjcloseprice and date)
     var stocks_typed = stocks.withColumn("adjcloseprice", stocks.col("adjcloseprice").cast("decimal(10,3)"))
