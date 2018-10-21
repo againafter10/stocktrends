@@ -63,6 +63,11 @@ object practice {
       .when(joined.col("trend") === "UP","Expensive Today")
       .otherwise("Same Price")
     joined.withColumn("infaltion",buy).show()
+    
+    // schema of the dataset
+    for(i<- joined.schema.fields){
+      println(i.name,i.dataType)
+    }
 
   }
 }
